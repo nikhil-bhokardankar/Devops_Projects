@@ -1,3 +1,5 @@
+
+#This will create new user in aws. 
 resource "aws_iam_user" "demo" {
   name = "awsuser1"
   path = "/system/"
