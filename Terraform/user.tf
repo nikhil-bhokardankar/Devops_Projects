@@ -13,6 +13,7 @@ resource "aws_iam_access_key" "demo" {
   user = aws_iam_user.demo.name
 }
 
+#This will create new aws user policy and attached to user created.
 data "aws_iam_policy_document" "demo_ro" {
   statement {
     effect    = "Allow"
