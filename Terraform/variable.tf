@@ -11,5 +11,10 @@ variable "vpc_cidr" {
 variable "aws_vpc" {
     default = "Tera-Demo-Vpc"
     description = "The default name for the VPC"
+}
+
+variable "Public-Subnet-CIDR" {
+    default = "15.1.0.0/25"
+    description = "Default value for Public subnet CIDR"
   
 }
