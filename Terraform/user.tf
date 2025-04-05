@@ -1,5 +1,5 @@
 
-#This will create new user in aws. 
+/*#This will create new user in aws. 
 resource "aws_iam_user" "demo" {
   name = "awsuser1"
   path = "/system/"
@@ -27,3 +27,4 @@ resource "aws_iam_user_policy" "demo_ro" {
   user   = aws_iam_user.demo.name
   policy = data.aws_iam_policy_document.demo_ro.json
 }
+*/
