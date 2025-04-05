@@ -1,5 +1,5 @@
 resource "aws_security_group" "Tera-SG" {
-  name   = "Tera-SG"
+  name   = var.Tera-SG
   vpc_id = aws_vpc.Tera-Demo-Vpc.id
   tags = {
     Name = "Tera-SG"
