@@ -16,7 +16,7 @@ resource "aws_subnet" "Tera-Public-Subnet" {
 
 resource "aws_subnet" "Tera-Private-Subnet" {
   vpc_id     = aws_vpc.Tera-Demo-Vpc.id
-  cidr_block = "15.1.0.128/25"
+  cidr_block = var.Private-Subnet-CIDR
   tags = {
     Name = "Tera-Private-Subnet"
   }

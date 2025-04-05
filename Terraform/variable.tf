@@ -18,3 +18,15 @@ variable "Public-Subnet-CIDR" {
     description = "Default value for Public subnet CIDR"
   
 }
+
+variable "Private-Subnet-CIDR" {
+    default = "15.1.0.128/25"
+    description = "Default value for Public subnet CIDR"
+  
+}
+
+variable "Tera-SG" {
+    default = "Tera-SG"
+    description = "Security group for the demo environment"
+  
+}
