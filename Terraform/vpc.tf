@@ -1,7 +1,7 @@
 resource "aws_vpc" "Tera-Demo-Vpc" {
-  cidr_block = "15.1.0.0/24"
+  cidr_block = var.vpc_cidr
   tags = {
-    Name = "Tera-Demo-Vpc"
+    Name = var.aws_vpc
   }
 
 }
