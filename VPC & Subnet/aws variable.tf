@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 #this file is created to add the variables value
->>>>>>> e7fd26f913cf82b93bfedb6c74801e78eba18b97
 variable "aws_region" {
   default     = "us-east-1"
   description = "AWS region to deploy resources"
